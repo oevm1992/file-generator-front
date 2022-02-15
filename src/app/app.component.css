@@ -1,0 +1,35 @@
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container-button {
+    text-align: center;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.mat-grid-tile {
+    background-color: rgb(223, 187, 187);
+}
+
+.example-full-width {
+    width: 100%;
+  }
+
+  ::ng-deep .mat-focused .mat-form-field-label {
+    /*change color of label*/
+    color: green !important;
+   }
+  
+   ::ng-deep.mat-form-field-underline {
+    /*change color of underline*/
+    background-color: green !important;
+  } 
+  
+  ::ng-deep.mat-form-field-ripple {
+   /*change color of underline when focused*/
+   background-color: green !important;;
+  }
